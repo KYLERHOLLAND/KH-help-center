@@ -1,0 +1,19 @@
+input: .
+output: .retype
+
+# GitHub Pages URL — update if you add a custom domain (e.g. help.yourdomain.com)
+url: kylerholland.github.io/kh-help-center/
+
+branding:
+  title: KH Help Center
+  label: Help
+
+links:
+  - text: Back to main site
+    link: https://www.kylerholland.com
+
+footer:
+  copyright: "&copy; Copyright {{ year }} - Kyler Holland | All rights reserved"
+
+editor:
+  enabled: true
