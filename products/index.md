@@ -1,7 +1,7 @@
 ---
 icon: package
 label: Products
-order: 5
+order: 98
 ---
 
 # Products

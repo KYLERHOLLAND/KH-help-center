@@ -1,7 +1,7 @@
 ---
 icon: mail
 label: Contact Support
-order: 99
+order: 1
 ---
 
 # Contact Support
@@ -10,15 +10,17 @@ Can't find what you need in the docs?
 
 ## Before you reach out
 
-- Trying to re-download a purchase? See [Download your purchases](download-purchases.md).
-- Questions about the affiliate program? See [Affiliate program](affiliate-program.md).
-- Search this help center for your question
-- Check the troubleshooting section for your product
+- Trying to re-download or update a purchase? See [Downloads & updates](downloads-and-updates.md).
+- Not sure how to install? See [How KH products install](../getting-started/how-products-install.md).
+- Common fixes: [Troubleshooting & FAQ](troubleshooting.md) · [Tutorial index](tutorial-index.md)
+- Refund questions: [Refunds & purchase policy](refunds-and-policy.md)
+- Affiliate questions: [Affiliate program](affiliate-program.md)
+- Product bug or feature request: [Report a bug](report-a-bug.md)
+- Search this help center or browse [All products](../products/index.md)
 - Note any error messages or screenshots
 
 ## Get in touch
 
 - **Email:** [Contact](https://assets.kylerholland.com/contact/)
-- **Website:** [kylerholland.com](https://www.kylerholland.com)
 
 We typically respond within 1–2 business days.

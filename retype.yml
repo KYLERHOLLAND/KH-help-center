@@ -4,9 +4,14 @@ output: .retype
 # GitHub Pages URL — update if you add a custom domain (e.g. help.yourdomain.com)
 url: kylerholland.github.io/kh-help-center/
 
+meta:
+  siteName: KH Help Center
+
 branding:
-  title: KH Help Center
-  label: Help
+  logo: assets/logo.png
+  logoDark: assets/logo-dark.png
+  logoHeight: 32
+  label: Help Center
 
 links:
   - text: Back to main site
@@ -17,3 +22,20 @@ footer:
 
 editor:
   enabled: false
+
+
+actions:
+  items:
+    - text: Copy page
+      action: copy-page-markdown
+      icon: copy
+    - text: Copy link
+      action: copy-page-link
+      icon: link
+    - type: separator
+    - text: View as Markdown
+      action: view-page-markdown
+      icon: markdown
+    - text: Print page
+      action: print-page
+      icon: brand-printer

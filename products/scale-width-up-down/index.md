@@ -48,7 +48,7 @@ The template appears under **Local Templates** and is ready to drag onto your ti
 
 ### I lost my download link
 
-Search for **Thanks for your purchase! Download your assets now** from `store+kylerholland@mail.sellfy.store` and click **View your order**. If you can't find the email, [sign in to your account](https://assets.kylerholland.com/u/signin/) with your purchase email, then open **Orders** → **View order**. See [Download your purchases](../../support/download-purchases.md) for step-by-step help.
+Search for **Thanks for your purchase! Download your assets now** from `store+kylerholland@mail.sellfy.store` and click **View your order**. If you can't find the email, [sign in to your account](https://assets.kylerholland.com/u/signin/) with your purchase email, then open **Orders** → **View order**. See [Downloads & updates](../../support/downloads-and-updates.md) for step-by-step help.
 
 ### Is there a video tutorial?
 
@@ -59,3 +59,4 @@ There isn't a dedicated tutorial video linked for this product yet. Installation
 ## Need more help?
 
 - **Contact support:** [Get in touch](../../support/contact.md)
+- **Report a bug:** [Submit a report](../../support/report-a-bug.md)

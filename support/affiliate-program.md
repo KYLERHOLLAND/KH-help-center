@@ -1,7 +1,7 @@
 ---
 icon: link
 label: Affiliate Program
-order: 20
+order: 50
 ---
 
 # Affiliate Program
@@ -33,7 +33,8 @@ The dashboard shows how your links are performing. Use the time filters (**Today
 - **Sales** — Number of referred purchases
 - **Clicks** — How many times your links were clicked
 
-![Affiliate dashboard](../assets/affiliate-dashboard.png)
+![Affiliate dashboard|600x100](../assets/affiliate-dashboard.png)
+
 
 ## Create affiliate links
 
@@ -41,7 +42,7 @@ Open **Products** in the sidebar to see every product you can promote. Each row 
 
 Click the **link** button on a product row to copy your unique tracking link for that product.
 
-![Affiliate products — create links](../assets/affiliate-products.png)
+![Affiliate products — create links|600x100](../assets/affiliate-products.png)
 
 Share that link anywhere you promote Kyler Holland products (YouTube descriptions, social posts, your website, and so on).
 
@@ -51,7 +52,7 @@ Open **Payouts** to see your unpaid commission balance and the payout threshold.
 
 Payouts are sent once your unpaid commissions total at least **$20.00 USD**.
 
-![Affiliate payouts](../assets/affiliate-payouts.png)
+![Affiliate payouts|600x100](../assets/affiliate-payouts.png)
 
 ## Settings
 

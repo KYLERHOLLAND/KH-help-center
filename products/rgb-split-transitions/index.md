@@ -1,12 +1,12 @@
 ---
 icon: package
 label: RGB Split Transitions
-order: 280
+order: 290
 ---
 
 # RGB Split Transitions
 
-Support documentation for **RGB Split Transitions**.
+Modular RGB channel-split transitions for Adobe Premiere Pro. Control red, green, and blue channels independently on **video and text** — stack and keyframe for custom glitch/flicker looks.
 
 **Get the product:** [RGB Split Transitions](https://kylerholland.sellfy.store/p/ysex/)  
 **Download:** After checkout, open the email **Thanks for your purchase! Download your assets now** from KYLER HOLLAND, click **View your order**, then **Download** the `.zip`. [Full steps](../../getting-started/index.md#how-to-download-your-products)
@@ -17,33 +17,43 @@ https://www.youtube.com/watch?v=RqRXmoj_jGM
 
 ---
 
+## What's included
+
+| Item | Description |
+|------|-------------|
+| `.prfpset` file | RGB Split preset bin (import via Effects → Presets) |
+| Modular presets | Adjust each color channel in **Effect Controls** after applying |
+
+Works on adjustment layers or clips depending on the preset — the tutorial walks through placement at edit points.
+
+---
+
 ## Installation
 
-### Step 1 — Download and extract
-
-1. Open the email **Thanks for your purchase! Download your assets now** from KYLER HOLLAND and click **View your order** — or [sign in to your account](https://assets.kylerholland.com/u/signin/) and open **Orders** → **View order** if you need to download again. See [How to download your products](../../getting-started/index.md#how-to-download-your-products) if you need help.
-2. Click **Download** next to the product `.zip` on your order page.
-3. Extract the `.zip` file.
-4. Open the extracted folder and locate the `.prfpset` preset file.
-
-### Step 2 — Import into Premiere Pro
-
-1. Open **Adobe Premiere Pro** and your project.
-2. Go to the **Effects** panel.
-3. Right-click **Presets** and select **Import Presets**.
-4. Select the `.prfpset` file from the extracted folder.
-5. Click **Open**.
-
-A new preset bin appears in your Presets folder.
+1. Extract the downloaded `.zip`.
+2. In Premiere Pro, **Effects** panel → right-click **Presets** → **Import Presets**.
+3. Select the RGB Split `.prfpset` → **Open**.
+4. Expand the imported **KH** / Kyler Holland bin to browse splits.
 
 ---
 
 ## How to use
 
-1. Create an **adjustment layer** over your cut (or apply directly to a clip, depending on the pack).
-2. Drag a preset from the imported bin onto the adjustment layer or clip.
-3. Preview playback and adjust timing by moving or trimming the layer.
-4. To try a different effect, right-click the clip → **Remove Attributes** → check **Transform** (or the effect the preset applied) → **OK**, then apply a new preset.
+1. Place the playhead at your **cut** (use **Up/Down** arrows to jump between edits).
+2. Add an **adjustment layer** over the cut (or apply directly to clips as shown in the video for your chosen preset).
+3. Drag an RGB Split preset onto the layer.
+4. Open **Effect Controls** and tune **red, green, and blue** channel offsets separately.
+5. Apply the same workflow to **text layers** for titled glitch transitions.
+
+Because the pack is **modular**, combine with [Flicker Transitions](flicker-transitions/index.md) or stack multiple RGB presets for stronger effects.
+
+---
+
+## Tips and workflow
+
+- **Text + video** — use the same presets on lower thirds and b-roll for a matched look.
+- **Keyframe channels** — push one channel harder than the others for stylized splits.
+- **Pair with flicker packs** — RGB splits complement flicker-style transitions mentioned in the RGB tutorial.
 
 ---
 
@@ -51,7 +61,7 @@ A new preset bin appears in your Presets folder.
 
 ### I lost my download link
 
-Search for **Thanks for your purchase! Download your assets now** from `store+kylerholland@mail.sellfy.store` and click **View your order**. If you can't find the email, [sign in to your account](https://assets.kylerholland.com/u/signin/) with your purchase email, then open **Orders** → **View order**. See [Download your purchases](../../support/download-purchases.md) for step-by-step help.
+Search for **Thanks for your purchase! Download your assets now** from `store+kylerholland@mail.sellfy.store` and click **View your order**. If you can't find the email, [sign in to your account](https://assets.kylerholland.com/u/signin/) with your purchase email, then open **Orders** → **View order**. See [Downloads & updates](../../support/downloads-and-updates.md) for step-by-step help.
 
 ---
 
@@ -59,3 +69,4 @@ Search for **Thanks for your purchase! Download your assets now** from `store+ky
 
 - **Video tutorial:** [RGB Split Transitions — Tutorial](https://www.youtube.com/watch?v=RqRXmoj_jGM)
 - **Contact support:** [Get in touch](../../support/contact.md)
+- **Report a bug:** [Submit a report](../../support/report-a-bug.md)

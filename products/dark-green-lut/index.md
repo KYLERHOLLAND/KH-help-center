@@ -1,12 +1,12 @@
 ---
 icon: package
 label: Dark Green Lut
-order: 180
+order: 190
 ---
 
 # Dark Green Lut
 
-Support documentation for **Dark Green Lut**.
+A cinematic **dark green** grade for foliage and drone footage, plus a drag-and-drop LUT/preset for Adobe Premiere Pro. The tutorial walks through building the look with **Hue/Saturation curves** so you can fine-tune beyond the preset.
 
 **Get the product:** [Dark Green Lut](https://kylerholland.sellfy.store/p/hfkrmn/)  
 **Download:** After checkout, open the email **Thanks for your purchase! Download your assets now** from KYLER HOLLAND, click **View your order**, then **Download** the `.zip`. [Full steps](../../getting-started/index.md#how-to-download-your-products)
@@ -17,39 +17,40 @@ https://www.youtube.com/watch?v=f5ByMJZ1X3U
 
 ---
 
-## Installation
+## What's included
 
-### Step 1 — Download and extract
-
-1. Download the product `.zip` from your order email or [your account](https://assets.kylerholland.com/u/signin/).
-2. Extract the `.zip` file.
-3. Inside you'll find `.cube` LUT files and, for many packs, a Premiere Pro `.prfpset` file.
-
-### Step 2 — Apply in Premiere Pro
-
-**Option A — Import the preset pack**
-
-1. In Premiere Pro, right-click **Presets** in the Effects panel → **Import Presets**.
-2. Select the included `.prfpset` file.
-3. Drag a LUT preset onto your clip.
-
-**Option B — Apply a `.cube` file directly**
-
-1. Select your clip and open the **Lumetri Color** panel.
-2. Under **Creative** → **Look**, click **Browse** and select a `.cube` file.
-3. Adjust **Intensity** to taste.
-
-### Step 2 — Apply in other apps
-
-Import the `.cube` files into your editor's LUT browser (DaVinci Resolve, Final Cut Pro, etc.) using that app's standard LUT workflow.
+| Item | Description |
+|------|-------------|
+| LUT / preset files | Apply in Lumetri or via imported Premiere preset (per your download) |
+| Grading approach | Hue vs. Saturation curves + RGB curves in the **Color** workspace |
 
 ---
 
-## How to use
+## Quick apply (preset / LUT)
 
-1. Apply a LUT to your clip using Lumetri Color or the imported preset.
-2. Adjust **Intensity** until the grade looks right on your footage.
-3. Fine-tune exposure and white balance before or after the LUT for best results.
+1. Extract the `.zip`.
+2. **If a `.prfpset` is included:** Effects → Import Presets → drag onto clip.
+3. **If `.cube` files are included:** Lumetri **Creative** → **Look** → **Browse** → select the cube → adjust **Intensity**.
+
+---
+
+## Manual grade (as taught in the video)
+
+1. Select your clip and open the **Color** workspace.
+2. Under **Lumetri**, open **Curves** → **Hue/Saturation Curves**.
+3. Use the **Hue vs. Saturation** (and related) curves to push greens darker and more cinematic without neon highs.
+4. Refine with **RGB curves** in the same panel if shadows need more contrast.
+5. Compare against the included preset to see how far you want to push the look.
+
+Ideal for **drone** and outdoor greens (tutorial uses Hawaii drone footage).
+
+---
+
+## Tips and workflow
+
+- **Shoot flat or neutral** — heavy grades work best when highlights aren't already clipped.
+- **Adjust intensity** — pull Lumetri intensity down if skin tones or roads pick up too much green spill.
+- **Before/after** — toggle the effect in Effect Controls when showing clients the grade.
 
 ---
 
@@ -57,7 +58,7 @@ Import the `.cube` files into your editor's LUT browser (DaVinci Resolve, Final 
 
 ### I lost my download link
 
-Search for **Thanks for your purchase! Download your assets now** from `store+kylerholland@mail.sellfy.store` and click **View your order**. If you can't find the email, [sign in to your account](https://assets.kylerholland.com/u/signin/) with your purchase email, then open **Orders** → **View order**. See [Download your purchases](../../support/download-purchases.md) for step-by-step help.
+Search for **Thanks for your purchase! Download your assets now** from `store+kylerholland@mail.sellfy.store` and click **View your order**. If you can't find the email, [sign in to your account](https://assets.kylerholland.com/u/signin/) with your purchase email, then open **Orders** → **View order**. See [Downloads & updates](../../support/downloads-and-updates.md) for step-by-step help.
 
 ---
 
@@ -65,3 +66,4 @@ Search for **Thanks for your purchase! Download your assets now** from `store+ky
 
 - **Video tutorial:** [Dark Green Lut — Tutorial](https://www.youtube.com/watch?v=f5ByMJZ1X3U)
 - **Contact support:** [Get in touch](../../support/contact.md)
+- **Report a bug:** [Submit a report](../../support/report-a-bug.md)

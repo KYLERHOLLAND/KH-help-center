@@ -6,7 +6,7 @@ order: 30
 
 # 10 FREE Luts
 
-Support documentation for **10 FREE Luts**.
+Ten free `.cube` LUTs for video. Download includes cubes for **Premiere** and a separate link for **non-Premiere** editors (DaVinci, FCP, etc.) mentioned in the tutorial.
 
 **Get the product:** [10 FREE Luts](https://kylerholland.sellfy.store/p/sgng/)  
 **Download:** After checkout, open the email **Thanks for your purchase! Download your assets now** from KYLER HOLLAND, click **View your order**, then **Download** the `.zip`. [Full steps](../../getting-started/index.md#how-to-download-your-products)
@@ -57,7 +57,7 @@ Import the `.cube` files into your editor's LUT browser (DaVinci Resolve, Final 
 
 ### I lost my download link
 
-Search for **Thanks for your purchase! Download your assets now** from `store+kylerholland@mail.sellfy.store` and click **View your order**. If you can't find the email, [sign in to your account](https://assets.kylerholland.com/u/signin/) with your purchase email, then open **Orders** → **View order**. See [Download your purchases](../../support/download-purchases.md) for step-by-step help.
+Search for **Thanks for your purchase! Download your assets now** from `store+kylerholland@mail.sellfy.store` and click **View your order**. If you can't find the email, [sign in to your account](https://assets.kylerholland.com/u/signin/) with your purchase email, then open **Orders** → **View order**. See [Downloads & updates](../../support/downloads-and-updates.md) for step-by-step help.
 
 ---
 
@@ -65,3 +65,4 @@ Search for **Thanks for your purchase! Download your assets now** from `store+ky
 
 - **Video tutorial:** [10 FREE Luts — Tutorial](https://www.youtube.com/watch?v=gywB68IDLgI)
 - **Contact support:** [Get in touch](../../support/contact.md)
+- **Report a bug:** [Submit a report](../../support/report-a-bug.md)

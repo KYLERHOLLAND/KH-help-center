@@ -1,4 +1,4 @@
-# KH Help Center
+# Development
 
 Markdown-first help center for Kyler Holland products, powered by [Retype](https://retype.com/).
 

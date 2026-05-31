@@ -165,7 +165,7 @@ Make sure you imported `KH Speed Zoom Transitions.prfpset` (not the `.zip` file)
 
 ### I lost my download link
 
-Search for **Thanks for your purchase! Download your assets now** from `store+kylerholland@mail.sellfy.store` and click **View your order**. If you can't find the email, [sign in to your account](https://assets.kylerholland.com/u/signin/) with your purchase email, then open **Orders** → **View order**. See [Download your purchases](../../support/download-purchases.md) for step-by-step help.
+Search for **Thanks for your purchase! Download your assets now** from `store+kylerholland@mail.sellfy.store` and click **View your order**. If you can't find the email, [sign in to your account](https://assets.kylerholland.com/u/signin/) with your purchase email, then open **Orders** → **View order**. See [Downloads & updates](../../support/downloads-and-updates.md) for step-by-step help.
 
 ### Playback looks choppy
 
@@ -177,3 +177,4 @@ Premiere may need to render the Transform keyframes. Press **Enter** to render t
 
 - **Video tutorial:** [Speed Zoom Transitions — Tutorial](https://www.youtube.com/watch?v=YYOizfUWJxs)
 - **Contact support:** [Get in touch](../../support/contact.md)
+- **Report a bug:** [Submit a report](../../support/report-a-bug.md)

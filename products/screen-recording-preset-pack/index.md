@@ -1,12 +1,12 @@
 ---
 icon: package
 label: Screen Recording Preset Pack
-order: 310
+order: 340
 ---
 
 # Screen Recording Preset Pack
 
-Support documentation for **Screen Recording Preset Pack**.
+Zoom-into-region presets for screen recordings in Adobe Premiere Pro. Isolate part of the frame, blur the background, and tweak exposure — built for tutorials and UI walkthroughs.
 
 **Get the product:** [Screen Recording Preset Pack](https://kylerholland.sellfy.store/p/zoom-in-screen-recording-preset-pack/)  
 **Download:** After checkout, open the email **Thanks for your purchase! Download your assets now** from KYLER HOLLAND, click **View your order**, then **Download** the `.zip`. [Full steps](../../getting-started/index.md#how-to-download-your-products)
@@ -17,33 +17,44 @@ https://www.youtube.com/watch?v=JQPWBHvS7lc
 
 ---
 
+## What's included
+
+| Item | Description |
+|------|-------------|
+| `.prfpset` file | Screen recording presets under **Kyler H presets** (bin name in tutorial) |
+| Zoom / focus presets | Magnify a region of your screen capture |
+| Look controls | Background blur and exposure adjustments (per preset) |
+
+The tutorial also rebuilds the effect from scratch if you want to customize the rig.
+
+---
+
 ## Installation
 
-### Step 1 — Download and extract
-
-1. Open the email **Thanks for your purchase! Download your assets now** from KYLER HOLLAND and click **View your order** — or [sign in to your account](https://assets.kylerholland.com/u/signin/) and open **Orders** → **View order** if you need to download again. See [How to download your products](../../getting-started/index.md#how-to-download-your-products) if you need help.
-2. Click **Download** next to the product `.zip` on your order page.
-3. Extract the `.zip` file.
-4. Open the extracted folder and locate the `.prfpset` preset file.
-
-### Step 2 — Import into Premiere Pro
-
-1. Open **Adobe Premiere Pro** and your project.
-2. Go to the **Effects** panel.
-3. Right-click **Presets** and select **Import Presets**.
-4. Select the `.prfpset` file from the extracted folder.
-5. Click **Open**.
-
-A new preset bin appears in your Presets folder.
+1. Right-click the downloaded `.zip` → **Extract All**.
+2. In Premiere, **Effects** → right-click **Presets** → **Import Presets**.
+3. Select the screen recording `.prfpset` → **Open**.
+4. Find the **Screen Recording** (or similarly named) folder inside **Kyler H presets**.
 
 ---
 
 ## How to use
 
-1. Create an **adjustment layer** over your cut (or apply directly to a clip, depending on the pack).
-2. Drag a preset from the imported bin onto the adjustment layer or clip.
-3. Preview playback and adjust timing by moving or trimming the layer.
-4. To try a different effect, right-click the clip → **Remove Attributes** → check **Transform** (or the effect the preset applied) → **OK**, then apply a new preset.
+1. Place your **screen recording** clip on the timeline.
+2. Drag a preset from the Screen Recording bin onto the clip.
+3. Open **Effect Controls** and adjust:
+   - **Zoom / position** to frame the UI area you want highlighted
+   - **Blur** on the background if the preset includes it
+   - **Exposure** to balance the magnified region against the rest of the frame
+4. Duplicate the clip and apply different presets for multi-step tutorials (zoom to menu, then zoom to button, etc.).
+
+---
+
+## Tips and workflow
+
+- **Plan key moments** — add presets only where the viewer needs to see detail; constant zoom feels tiring.
+- **Match sequence size** to your capture (1080p screen recordings on 1080p timelines stay sharpest).
+- **Render for smooth playback** — heavy blur + scale may need a render preview (**Enter**) on long clips.
 
 ---
 
@@ -51,7 +62,7 @@ A new preset bin appears in your Presets folder.
 
 ### I lost my download link
 
-Search for **Thanks for your purchase! Download your assets now** from `store+kylerholland@mail.sellfy.store` and click **View your order**. If you can't find the email, [sign in to your account](https://assets.kylerholland.com/u/signin/) with your purchase email, then open **Orders** → **View order**. See [Download your purchases](../../support/download-purchases.md) for step-by-step help.
+Search for **Thanks for your purchase! Download your assets now** from `store+kylerholland@mail.sellfy.store` and click **View your order**. If you can't find the email, [sign in to your account](https://assets.kylerholland.com/u/signin/) with your purchase email, then open **Orders** → **View order**. See [Downloads & updates](../../support/downloads-and-updates.md) for step-by-step help.
 
 ---
 
@@ -59,3 +70,4 @@ Search for **Thanks for your purchase! Download your assets now** from `store+ky
 
 - **Video tutorial:** [Screen Recording Preset Pack — Tutorial](https://www.youtube.com/watch?v=JQPWBHvS7lc)
 - **Contact support:** [Get in touch](../../support/contact.md)
+- **Report a bug:** [Submit a report](../../support/report-a-bug.md)
