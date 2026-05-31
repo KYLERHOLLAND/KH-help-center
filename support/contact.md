@@ -10,6 +10,8 @@ Can't find what you need in the docs?
 
 ## Before you reach out
 
+- Trying to re-download a purchase? See [Download your purchases](download-purchases.md).
+- Questions about the affiliate program? See [Affiliate program](affiliate-program.md).
 - Search this help center for your question
 - Check the troubleshooting section for your product
 - Note any error messages or screenshots

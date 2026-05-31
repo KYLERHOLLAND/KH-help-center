@@ -15,6 +15,8 @@ Use the sidebar to browse by product, or try the search bar at the top.
 ## Popular topics
 
 - [Getting started](getting-started/index.md)
+- [Download your purchases](support/download-purchases.md)
+- [Affiliate program](support/affiliate-program.md)
 - [Contact support](support/contact.md)
 
 ## Products

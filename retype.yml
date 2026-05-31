@@ -16,4 +16,4 @@ footer:
   copyright: "&copy; Copyright {{ year }} - Kyler Holland | All rights reserved"
 
 editor:
-  enabled: true
+  enabled: false
