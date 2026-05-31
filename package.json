@@ -1,0 +1,11 @@
+{
+  "name": "kh-help-center",
+  "private": true,
+  "scripts": {
+    "dev": "retype start",
+    "build": "retype build"
+  },
+  "devDependencies": {
+    "retypeapp": "latest"
+  }
+}
