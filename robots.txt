@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kylerholland.github.io/kh-help-center/sitemap.xml
+Sitemap: https://help.kylerholland.com/sitemap.xml
