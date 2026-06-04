@@ -1,8 +1,8 @@
 input: .
 output: .retype
 
-# GitHub Pages URL — update if you add a custom domain (e.g. help.yourdomain.com)
-url: kylerholland.github.io/kh-help-center/
+# Custom domain — Retype generates CNAME for GitHub Pages on each build
+url: help.kylerholland.com
 
 meta:
   siteName: KH Help Center
