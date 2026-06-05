@@ -134,6 +134,34 @@ Contact [Brevidy/KH support](contact.md) with your order email and Premiere vers
 
 ---
 
+## Ultimate Effects Pack plugin & subscriptions
+
+==- I can't sign in to the plugin / "No active purchase found"
+Use the **exact email** from your Sellfy checkout. Request **Email me a sign-in link**, then open that email on the **same computer** as Premiere and click the link within **20 minutes**.
+
+Full walkthrough: [Sign-in & devices](../subscriptions/sign-in-and-devices.md).
+===
+
+==- I canceled my subscription — why does the plugin still work?
+**By design.** Canceling stops future charges but you keep access until the **end of your current billing period** (monthly or annual). The plugin shows **Subscription canceled** with **days left** until then.
+
+Details: [Cancel your subscription](../subscriptions/cancel-your-subscription.md).
+===
+
+==- My plugin locked after my subscription ended
+Renew on [Sellfy](https://kylerholland.sellfy.store/), then sign in again in the plugin with your purchase email. Or use the **RENEW** button in the plugin sidebar before access lapses.
+
+See [Subscriptions](../subscriptions/index.md).
+===
+
+==- "This computer is not activated for your license"
+Each license allows **2 devices**. Sign in again on this computer — it will replace the oldest device if you're over the limit.
+
+See [Sign-in & devices](../subscriptions/sign-in-and-devices.md#device-activations).
+===
+
+---
+
 ## Purchases, refunds & licensing
 
 ==- Can I get a refund?

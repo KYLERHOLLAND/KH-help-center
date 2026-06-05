@@ -9,6 +9,7 @@ order: 400
 700+ drag-and-drop transitions and effects for Premiere Pro — glitches, zooms, spins, camera moves, displacement, add-ons, and more. Many transitions include sound. This pack installs as a **Premiere Pro project**, not a `.prfpset` file.
 
 **Get the product:** [The Ultimate Effects Pack](https://www.kylerholland.com/theultimateeffectspack)  
+**Subscribe (plugin):** [Monthly or annual on Sellfy](https://kylerholland.sellfy.store/) — see [Subscriptions](../../subscriptions/index.md) for sign-in, billing, and cancellation.  
 **Download:** After checkout, open the email **Thanks for your purchase! Download your assets now** from KYLER HOLLAND, click **View your order**, then **Download** the `.zip`. [Full steps](../../getting-started/index.md#how-to-download-your-products)
 
 Prefer to follow along in video? Watch the tutorial below.
@@ -32,6 +33,22 @@ After you extract the download, the folder typically contains:
 !!!warning Do not delete or move linked assets
 The **Do not delete** folder holds media the pack references. Renaming, moving, or deleting files inside it can break transitions offline or show media offline errors.
 !!!
+
+---
+
+## Plugin subscription (monthly or annual)
+
+The Ultimate Effects Pack **plugin** for Premiere Pro is sold as a **$7.99/month** or **$59/year** subscription on Sellfy. The plugin uses **email sign-in** (magic link) — no license key.
+
+1. **Subscribe** on [Sellfy](https://kylerholland.sellfy.store/).
+2. **Install** the plugin from your download.
+3. **Sign in** in the panel with your **Sellfy checkout email**.
+
+!!!tip Canceling keeps your paid time
+If you cancel, you **keep plugin access until the end of your current billing period** — not just until the day you cancel. The plugin shows **days left** and a **RENEW** button until access ends.
+!!!
+
+Full details: [Subscriptions](../../subscriptions/index.md) · [Sign-in & devices](../../subscriptions/sign-in-and-devices.md) · [Cancel your subscription](../../subscriptions/cancel-your-subscription.md)
 
 ---
 
@@ -88,6 +105,10 @@ Confirm the **Do not delete** folder is still next to the project file and hasn'
 ### I lost my download link
 
 Search for **Thanks for your purchase! Download your assets now** from `store+kylerholland@mail.sellfy.store` and click **View your order**. If you can't find the email, [sign in to your account](https://assets.kylerholland.com/u/signin/) with your purchase email, then open **Orders** → **View order**. See [Downloads & updates](../../support/downloads-and-updates.md) for step-by-step help.
+
+### How do I sign in to the plugin or cancel my subscription?
+
+See the [Subscriptions](../../subscriptions/index.md) section — [sign-in & devices](../../subscriptions/sign-in-and-devices.md) and [cancel your subscription](../../subscriptions/cancel-your-subscription.md). Canceling keeps access through the end of your paid period.
 
 ---
 

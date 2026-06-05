@@ -19,6 +19,7 @@ Just purchased? Start with **[Getting started](getting-started/index.md)** to do
 
 [!card layout="signal" icon="rocket" title="Getting started" text="Download your purchase, sign in to your account, and find the right install guide." kicker="Open"](getting-started/index.md)
 [!card layout="signal" icon="package" title="How products install" text="Step-by-step workflows for .prfpset, MOGRT, LUT, and other KH file types." kicker="Open"](getting-started/how-products-install.md)
+[!card layout="signal" icon="credit-card" title="Subscriptions" text="Monthly and annual Ultimate Effects Pack plugin — sign in, billing, and canceling." kicker="Open"](subscriptions/index.md)
 [!card layout="signal" icon="download" title="Downloads & updates" text="Re-download a purchase or grab the latest version of a pack." kicker="Open"](support/downloads-and-updates.md)
 [!card layout="signal" icon="alert" title="Troubleshooting & FAQ" text="Common install issues, Premiere Pro tips, and quick fixes." kicker="Open"](support/troubleshooting.md)
 [!card layout="signal" icon="video" title="Tutorials" text="Step-by-step video guides to help you get the most out of your KH products." kicker="Watch"](support/tutorial-index.md)
@@ -28,6 +29,7 @@ Just purchased? Start with **[Getting started](getting-started/index.md)** to do
 ## Browse by topic
 
 ||| Support
+- [Subscriptions](subscriptions/index.md) — Ultimate Effects Pack plugin billing & sign-in
 - [Tutorial index](support/tutorial-index.md) — video walkthroughs
 - [Refunds & purchase policy](support/refunds-and-policy.md)
 - [Affiliate program](support/affiliate-program.md)
