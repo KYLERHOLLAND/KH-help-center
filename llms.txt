@@ -5,6 +5,7 @@
 - [KH Help Center](https://help.kylerholland.com/index.md): KH Help Center
 - [Getting Started](https://help.kylerholland.com/getting-started/index.md): Download your Kyler Holland purchase, extract the files, and install presets, transitions, LUTs, and motion graphics in Premiere Pro or other apps.
 - [Products](https://help.kylerholland.com/products/index.md): Browse help and support by product (42 total).
+- [Subscriptions](https://help.kylerholland.com/subscriptions/index.md): Monthly and annual subscriptions for the Ultimate Effects Pack plugin — sign in, billing, cancellation, and access through your paid period.
 
 ## Getting Started
 
@@ -54,6 +55,11 @@
 - [10 Glitch Overlays](https://help.kylerholland.com/products/10-glitch-overlays/index.md): Ten free glitch overlay templates for animating text, logos, and transitional elements in Adobe Premiere Pro (via Essential Graphics / MOGRT workflow from the After Effects source).
 - [10 Cinematic Luts](https://help.kylerholland.com/products/10-cinematic-luts/index.md): Ten cinematic .cube LUTs created in Lightroom for still-inspired color, packaged for video. Includes a Premiere .prfpset for one-drag grading plus standalone cubes for any editor.
 - [1,300 Cinematic Sound Effects](https://help.kylerholland.com/products/1300-cinematic-sound-effects/index.md): 1,300+ cinematic sound effects for video projects — organized for quick browsing and drag-in editing in Premiere Pro or any DAW.
+
+## Subscriptions
+
+- [Sign-in & devices](https://help.kylerholland.com/subscriptions/sign-in-and-devices.md): The Ultimate Effects Pack plugin unlocks with your Sellfy purchase email — not a license key. This page covers sign-in, device limits, and fixes for common access issues.
+- [Cancel your subscription](https://help.kylerholland.com/subscriptions/cancel-your-subscription.md): You can cancel your Ultimate Effects Pack monthly or annual subscription at any time. Future charges stop, but you keep plugin access until the end of your current billing period — the time you've already paid for.
 
 ## Support
 

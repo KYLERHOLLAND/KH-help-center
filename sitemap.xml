@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://help.kylerholland.com/</loc>
-    <lastmod>2026-05-31T11:22:47Z</lastmod>
+    <lastmod>2026-06-05T16:31:59Z</lastmod>
   </url>
   <url>
     <loc>https://help.kylerholland.com/getting-started/</loc>
@@ -17,10 +17,6 @@
     <lastmod>2026-05-31T11:22:47Z</lastmod>
   </url>
   <url>
-    <loc>https://help.kylerholland.com/support/tutorial-index/</loc>
-    <lastmod>2026-05-31T11:22:47Z</lastmod>
-  </url>
-  <url>
     <loc>https://help.kylerholland.com/support/downloads-and-updates/</loc>
     <lastmod>2026-05-31T11:22:47Z</lastmod>
   </url>
@@ -29,12 +25,20 @@
     <lastmod>2026-05-31T11:22:47Z</lastmod>
   </url>
   <url>
+    <loc>https://help.kylerholland.com/support/tutorial-index/</loc>
+    <lastmod>2026-05-31T11:22:47Z</lastmod>
+  </url>
+  <url>
+    <loc>https://help.kylerholland.com/subscriptions/</loc>
+    <lastmod>2026-06-05T16:31:59Z</lastmod>
+  </url>
+  <url>
     <loc>https://help.kylerholland.com/support/report-a-bug/</loc>
     <lastmod>2026-05-31T11:22:47Z</lastmod>
   </url>
   <url>
     <loc>https://help.kylerholland.com/products/the-ultimate-effects-pack/</loc>
-    <lastmod>2026-05-31T11:22:47Z</lastmod>
+    <lastmod>2026-06-05T16:31:59Z</lastmod>
   </url>
   <url>
     <loc>https://help.kylerholland.com/products/zoom-spin-and-slide-transitions/</loc>
@@ -85,11 +89,11 @@
     <lastmod>2026-05-31T11:22:47Z</lastmod>
   </url>
   <url>
-    <loc>https://help.kylerholland.com/products/sam-kolder-lut-pack/</loc>
+    <loc>https://help.kylerholland.com/products/rgb-split-transitions/</loc>
     <lastmod>2026-05-31T11:22:47Z</lastmod>
   </url>
   <url>
-    <loc>https://help.kylerholland.com/products/rgb-split-transitions/</loc>
+    <loc>https://help.kylerholland.com/products/sam-kolder-lut-pack/</loc>
     <lastmod>2026-05-31T11:22:47Z</lastmod>
   </url>
   <url>
@@ -117,11 +121,11 @@
     <lastmod>2026-05-31T11:22:47Z</lastmod>
   </url>
   <url>
-    <loc>https://help.kylerholland.com/products/dynamic-slide-text-motion-graphic/</loc>
+    <loc>https://help.kylerholland.com/products/exposure-transitions/</loc>
     <lastmod>2026-05-31T11:22:47Z</lastmod>
   </url>
   <url>
-    <loc>https://help.kylerholland.com/products/exposure-transitions/</loc>
+    <loc>https://help.kylerholland.com/products/dynamic-slide-text-motion-graphic/</loc>
     <lastmod>2026-05-31T11:22:47Z</lastmod>
   </url>
   <url>
@@ -141,11 +145,11 @@
     <lastmod>2026-05-31T11:22:47Z</lastmod>
   </url>
   <url>
-    <loc>https://help.kylerholland.com/products/brevidy/</loc>
+    <loc>https://help.kylerholland.com/products/custom-brush-motion-graphic/</loc>
     <lastmod>2026-05-31T11:22:47Z</lastmod>
   </url>
   <url>
-    <loc>https://help.kylerholland.com/products/custom-brush-motion-graphic/</loc>
+    <loc>https://help.kylerholland.com/products/brevidy/</loc>
     <lastmod>2026-05-31T11:22:47Z</lastmod>
   </url>
   <url>
@@ -185,11 +189,11 @@
     <lastmod>2026-05-31T11:22:47Z</lastmod>
   </url>
   <url>
-    <loc>https://help.kylerholland.com/products/10-free-luts/</loc>
-    <lastmod>2026-05-31T11:22:47Z</lastmod>
+    <loc>https://help.kylerholland.com/support/troubleshooting/</loc>
+    <lastmod>2026-06-05T16:31:59Z</lastmod>
   </url>
   <url>
-    <loc>https://help.kylerholland.com/support/troubleshooting/</loc>
+    <loc>https://help.kylerholland.com/products/10-free-luts/</loc>
     <lastmod>2026-05-31T11:22:47Z</lastmod>
   </url>
   <url>
@@ -203,6 +207,14 @@
   <url>
     <loc>https://help.kylerholland.com/products/1300-cinematic-sound-effects/</loc>
     <lastmod>2026-05-31T11:22:47Z</lastmod>
+  </url>
+  <url>
+    <loc>https://help.kylerholland.com/subscriptions/sign-in-and-devices/</loc>
+    <lastmod>2026-06-05T16:31:59Z</lastmod>
+  </url>
+  <url>
+    <loc>https://help.kylerholland.com/subscriptions/cancel-your-subscription/</loc>
+    <lastmod>2026-06-05T16:31:59Z</lastmod>
   </url>
   <url>
     <loc>https://help.kylerholland.com/support/refunds-and-policy/</loc>
