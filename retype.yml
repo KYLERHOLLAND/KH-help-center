@@ -7,6 +7,9 @@ url: help.kylerholland.com
 meta:
   siteName: KH Help Center
 
+generator:
+  paths: root
+
 branding:
   logo: assets/logo.png
   logoDark: assets/logo-dark.png
@@ -16,6 +19,8 @@ branding:
 links:
   - text: Back to main site
     link: https://www.kylerholland.com
+  - text: Changelog
+    link: /changelog/
 
 footer:
   copyright: "&copy; Copyright {{ year }} - Kyler Holland | All rights reserved"

@@ -22,7 +22,7 @@ Work through the steps below in order: **download → extract → install**. If 
 
 [!card layout="signal" icon="package" title="How products install" text="Step-by-step workflows for every KH file type — presets, projects, MOGRT, LUTs, and more." kicker="Open"](how-products-install.md)
 [!card layout="signal" icon="download" title="Downloads & updates" text="Re-download a purchase, grab the latest version, or move packs to a new computer." kicker="Open"](../support/downloads-and-updates.md)
-[!card layout="signal" icon="history" title="Changelog" text="See what's new in KH packs and plugins after you re-download." kicker="View"](../support/changelog.md)
+[!card layout="signal" icon="history" title="Changelog" text="See what's new in KH packs and plugins after you re-download." kicker="View"](../changelog/index.md)
 [!card layout="signal" icon="alert" title="Troubleshooting" text="Fixes for missing presets, import errors, macOS warnings, and account issues." kicker="Open"](../support/troubleshooting.md)
 
 ---
@@ -69,7 +69,7 @@ Lost the email, got a new computer, or need a fresh copy? Your purchases stay in
 
 **Free products** also go through checkout and appear under **Orders** — re-download them the same way as paid products.
 
-For updated pack files, see **[Downloads & updates](../support/downloads-and-updates.md)**. For version-by-version release notes, see the **[Changelog](../support/changelog.md)**.
+For updated pack files, see **[Downloads & updates](../support/downloads-and-updates.md)**. For version-by-version release notes, see the **[Changelog](../changelog/index.md)**.
 
 !!!tip Can't sign in?
 Use the same email from your purchase receipt. If you still can't access your order, [contact support](../support/contact.md).
