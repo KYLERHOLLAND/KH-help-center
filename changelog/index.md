@@ -3,7 +3,7 @@
 What's new across KH products — new presets, compatibility updates, bug fixes, and breaking changes. Re-download updated packs from your account; you don't need to purchase again.
 
 !!!tip How to get updates
-Sign in → **Orders** → **View order** → **Download** again. Step-by-step help: [Downloads & updates](downloads-and-updates.md).
+Sign in → **Orders** → **View order** → **Download** again. Step-by-step help: [Downloads & updates](../support/downloads-and-updates.md).
 !!!
 
 ---
@@ -24,10 +24,10 @@ No archived release notes yet. Older pack updates were announced on product stor
 
 ## Related help
 
-[!card layout="signal" icon="download" title="Downloads & updates" text="Re-download a purchase or grab the latest version of a pack." kicker="Open"](downloads-and-updates.md)
+[!card layout="signal" icon="download" title="Downloads & updates" text="Re-download a purchase or grab the latest version of a pack." kicker="Open"](../support/downloads-and-updates.md)
 [!card layout="signal" icon="package" title="All products" text="Install guides, tutorials, and troubleshooting for every KH product." kicker="Browse"](../products/index.md)
 [!card layout="signal" icon="credit-card" title="Subscriptions" text="Ultimate Effects Pack plugin — sign in, billing, and cancellation." kicker="Open"](../subscriptions/index.md)
 
 ---
 
-Missing something from the changelog? [Contact support](contact.md) and include the product name and version you have installed.
+Missing something from the changelog? [Contact support](../support/contact.md) and include the product name and version you have installed.

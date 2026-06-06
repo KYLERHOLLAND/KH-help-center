@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.834090494895">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.834090707063">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -37,16 +37,37 @@
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link id="retype-favicon" rel="icon" href="../../favicon.ico" />
-    <link href="../../resources/css/retype.css?v=4.6.0.834090494895" rel="stylesheet">
+    <link id="retype-favicon" rel="icon" href="/favicon.ico" />
+    <link href="/resources/css/retype.css?v=4.6.0.834090707063" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.834090494895" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.834090494895" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.834090707063" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.834090707063" data-turbo-eval="false" defer></script>
 
     <link rel="icon" href="/favicon.ico" sizes="any">
     <link rel="icon" href="/favicon.png" type="image/png" sizes="32x32">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <script data-cfasync="false">
+    (function () {
+      function setFavicon() {
+        var href = "/favicon.ico";
+        var links = document.querySelectorAll('link[rel="icon"], link#retype-favicon');
+        for (var i = 0; i < links.length; i++) {
+          links[i].href = href;
+        }
+        if (!document.getElementById("retype-favicon")) {
+          var link = document.createElement("link");
+          link.id = "retype-favicon";
+          link.rel = "icon";
+          link.href = href;
+          document.head.appendChild(link);
+        }
+      }
+      setFavicon();
+      document.addEventListener("turbo:load", setFavicon);
+      document.addEventListener("turbo:render", setFavicon);
+    })();
+    </script>
 
 </head>
 <body>
@@ -64,8 +85,8 @@
                 <div class="flex items-center px-2 md:px-6">
                     <a id="retype-branding-logo" href="https://help.kylerholland.com/" class="flex items-center leading-snug text-2xl">
                         <span class="grow-0 shrink-0 overflow-hidden">
-                            <img class="max-h-10 dark:hidden md:inline-block" src="../../assets/logo.png" alt="KH Help Center" height="32">
-                            <img class="max-h-10 hidden dark:inline-block" src="../../assets/logo-dark.png" alt="KH Help Center" height="32">
+                            <img class="max-h-10 dark:hidden md:inline-block" src="/assets/logo.png" alt="KH Help Center" height="32">
+                            <img class="max-h-10 hidden dark:inline-block" src="/assets/logo-dark.png" alt="KH Help Center" height="32">
                         </span>
                     </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">Help Center</span>
                 </div>
@@ -79,6 +100,9 @@
                     <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://www.kylerholland.com">Back to main site</a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="/changelog/">Changelog</a>
                         </li>
     
                     </ul>
@@ -132,6 +156,9 @@
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://www.kylerholland.com">Back to main site</a>
                                 </li>
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="/changelog/">Changelog</a>
+                                </li>
         
                             </ul>
                         </nav>
@@ -170,7 +197,7 @@
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Just downloaded?</h5>
-<p>If you haven&#x27;t extracted your order yet, start with <a href="../#how-to-download-your-products">How to download your products</a>.</p>
+<p>If you haven&#x27;t extracted your order yet, start with <a href="/getting-started/#how-to-download-your-products">How to download your products</a>.</p>
         </div>
     </div>
 </div>
@@ -247,11 +274,11 @@
 </ol>
 <h3 id="example-products">Example products</h3>
 <ul>
-<li><a href="../../products/speed-zoom-transitions/">Speed Zoom Transitions</a></li>
-<li><a href="../../products/shake-transitions-preset-pack/">Shake Transitions</a></li>
-<li><a href="../../products/200-text-effects/">200+ Text Effects</a></li>
-<li><a href="../../products/seamless-subtitles-v2/">Seamless Subtitles</a></li>
-<li><a href="../../products/audio-effects/">Audio Effects</a></li>
+<li><a href="/products/speed-zoom-transitions/">Speed Zoom Transitions</a></li>
+<li><a href="/products/shake-transitions-preset-pack/">Shake Transitions</a></li>
+<li><a href="/products/200-text-effects/">200+ Text Effects</a></li>
+<li><a href="/products/seamless-subtitles-v2/">Seamless Subtitles</a></li>
+<li><a href="/products/audio-effects/">Audio Effects</a></li>
 </ul>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-tip"></div>
@@ -265,7 +292,7 @@
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Preset bin missing?</h5>
-<p>Restart Premiere after import. See <a href="../../support/troubleshooting/#installation--import">Troubleshooting — preset bin not showing</a>.</p>
+<p>Restart Premiere after import. See <a href="/support/troubleshooting/#installation--import">Troubleshooting — preset bin not showing</a>.</p>
         </div>
     </div>
 </div>
@@ -288,8 +315,8 @@
 </ul>
 <h3 id="example-products-1">Example products</h3>
 <ul>
-<li><a href="../../products/the-ultimate-effects-pack/">The Ultimate Effects Pack</a></li>
-<li><a href="../../products/seamless-flow-transition-pack/">Seamless Flow Transition Pack</a></li>
+<li><a href="/products/the-ultimate-effects-pack/">The Ultimate Effects Pack</a></li>
+<li><a href="/products/seamless-flow-transition-pack/">Seamless Flow Transition Pack</a></li>
 </ul>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-warning"></div>
@@ -326,12 +353,12 @@
 </ol>
 <h3 id="example-products-2">Example products</h3>
 <ul>
-<li><a href="../../products/auto-resize-text-motion-graphic/">Auto Resize Text Motion Graphic</a></li>
-<li><a href="../../products/100-free-textures/">100 FREE Textures</a></li>
-<li><a href="../../products/10-glitch-overlays/">10 Glitch Overlays</a></li>
-<li><a href="../../products/10-texture-overlays/">10 Texture Overlays</a></li>
-<li><a href="../../products/dynamic-slide-text-motion-graphic/">Dynamic Slide Text Motion Graphic</a></li>
-<li><a href="../../products/48-text-slide-transitions/">48 Text Slide Transitions</a></li>
+<li><a href="/products/auto-resize-text-motion-graphic/">Auto Resize Text Motion Graphic</a></li>
+<li><a href="/products/100-free-textures/">100 FREE Textures</a></li>
+<li><a href="/products/10-glitch-overlays/">10 Glitch Overlays</a></li>
+<li><a href="/products/10-texture-overlays/">10 Texture Overlays</a></li>
+<li><a href="/products/dynamic-slide-text-motion-graphic/">Dynamic Slide Text Motion Graphic</a></li>
+<li><a href="/products/48-text-slide-transitions/">48 Text Slide Transitions</a></li>
 </ul>
 <hr>
 <h2 id="cube-luts--color-grading"><code translate="no" v-pre>.cube</code> LUTs — Color grading</h2>
@@ -352,11 +379,11 @@
 <p>Import <code translate="no" v-pre>.cube</code> files into <strong>DaVinci Resolve</strong>, <strong>Final Cut Pro</strong>, <strong>Photoshop</strong>, or any app with a standard LUT workflow — no Premiere required.</p>
 <h3 id="example-products-3">Example products</h3>
 <ul>
-<li><a href="../../products/10-free-luts/">10 FREE Luts</a></li>
-<li><a href="../../products/10-cinematic-luts/">10 Cinematic Luts</a></li>
-<li><a href="../../products/film-luts/">Film Luts</a></li>
-<li><a href="../../products/sam-kolder-lut-pack/">Sam Kolder Lut Pack</a></li>
-<li><a href="../../products/dark-green-lut/">Dark Green Lut</a></li>
+<li><a href="/products/10-free-luts/">10 FREE Luts</a></li>
+<li><a href="/products/10-cinematic-luts/">10 Cinematic Luts</a></li>
+<li><a href="/products/film-luts/">Film Luts</a></li>
+<li><a href="/products/sam-kolder-lut-pack/">Sam Kolder Lut Pack</a></li>
+<li><a href="/products/dark-green-lut/">Dark Green Lut</a></li>
 </ul>
 <hr>
 <h2 id="video--audio-files--media-libraries">Video &amp; audio files — Media libraries</h2>
@@ -371,12 +398,12 @@
 <p>Works in any editor that supports the file format (<code translate="no" v-pre>.wav</code>, <code translate="no" v-pre>.mp3</code>, <code translate="no" v-pre>.mov</code>, <code translate="no" v-pre>.mp4</code>, etc.).</p>
 <h3 id="example-products-4">Example products</h3>
 <ul>
-<li><a href="../../products/1300-cinematic-sound-effects/">1,300 Cinematic Sound Effects</a></li>
-<li><a href="../../products/14-free-4k-light-leaks/">14 FREE 4K Light Leaks</a></li>
+<li><a href="/products/1300-cinematic-sound-effects/">1,300 Cinematic Sound Effects</a></li>
+<li><a href="/products/14-free-4k-light-leaks/">14 FREE 4K Light Leaks</a></li>
 </ul>
 <hr>
 <h2 id="lightroom--xmp-and-dng-presets">Lightroom — <code translate="no" v-pre>.xmp</code> and <code translate="no" v-pre>.dng</code> presets</h2>
-<p><a href="../../products/lightroom-preset-black-2-0/">Lightroom Preset: BLACK 2.0</a> uses different files per platform:</p>
+<p><a href="/products/lightroom-preset-black-2-0/">Lightroom Preset: BLACK 2.0</a> uses different files per platform:</p>
 <retype-table copy-text="| Format | Platform |
 |--------|----------|
 | **`.xmp`** | Lightroom desktop and **Android** |
@@ -406,16 +433,16 @@
 <hr>
 <h2 id="extensions--partner-products">Extensions &amp; partner products</h2>
 <h3 id="brevidy">Brevidy</h3>
-<p><a href="../../products/brevidy/">Brevidy</a> is a Premiere Pro <strong>extension</strong> (captions, AutoCut, Brevidy Media). Install and update through Brevidy&#x27;s extension workflow after purchase — not via Import Presets or <code translate="no" v-pre>.zip</code> drag-in.</p>
+<p><a href="/products/brevidy/">Brevidy</a> is a Premiere Pro <strong>extension</strong> (captions, AutoCut, Brevidy Media). Install and update through Brevidy&#x27;s extension workflow after purchase — not via Import Presets or <code translate="no" v-pre>.zip</code> drag-in.</p>
 <hr>
 <h2 id="mixed-packs">Mixed packs</h2>
 <p>Some downloads include <strong>more than one file type</strong> (for example <code translate="no" v-pre>.prfpset</code> plus shape assets, or LUT cubes plus a preset file). Always read the <strong>What&#x27;s included</strong> section on your product&#x27;s help page before deleting anything from the extracted folder.</p>
 <hr>
 <h2 id="need-help">Need help?</h2>
 <ul>
-<li><a href="../../support/troubleshooting/">Troubleshooting &amp; FAQ</a></li>
-<li><a href="../../support/tutorial-index/">Tutorial index</a> — video walkthroughs for most packs</li>
-<li><a href="../../support/contact/">Contact support</a></li>
+<li><a href="/support/troubleshooting/">Troubleshooting &amp; FAQ</a></li>
+<li><a href="/support/tutorial-index/">Tutorial index</a> — video walkthroughs for most packs</li>
+<li><a href="/support/contact/">Contact support</a></li>
 </ul>
 
                 
@@ -426,7 +453,7 @@
             
                 <nav id="retype-nextprev" class="print:hidden flex mt-14">
                     <div class="w-1/2">
-                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../getting-started/">
+                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="/getting-started/">
                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                             <span>
                                 <span class="block text-xs font-normal text-base-text-muted">Previous</span>
@@ -436,7 +463,7 @@
                     </div>
             
                     <div class="w-1/2">
-                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../products/">
+                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="/products/">
                             <span>
                                 <span class="block text-xs font-normal text-right text-base-text-muted">Next</span>
                                 <span class="block mt-1">Products</span>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.834090494895">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.834090707063">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -37,16 +37,37 @@
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link id="retype-favicon" rel="icon" href="../../favicon.ico" />
-    <link href="../../resources/css/retype.css?v=4.6.0.834090494895" rel="stylesheet">
+    <link id="retype-favicon" rel="icon" href="/favicon.ico" />
+    <link href="/resources/css/retype.css?v=4.6.0.834090707063" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.834090494895" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.834090494895" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.834090707063" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.834090707063" data-turbo-eval="false" defer></script>
 
     <link rel="icon" href="/favicon.ico" sizes="any">
     <link rel="icon" href="/favicon.png" type="image/png" sizes="32x32">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <script data-cfasync="false">
+    (function () {
+      function setFavicon() {
+        var href = "/favicon.ico";
+        var links = document.querySelectorAll('link[rel="icon"], link#retype-favicon');
+        for (var i = 0; i < links.length; i++) {
+          links[i].href = href;
+        }
+        if (!document.getElementById("retype-favicon")) {
+          var link = document.createElement("link");
+          link.id = "retype-favicon";
+          link.rel = "icon";
+          link.href = href;
+          document.head.appendChild(link);
+        }
+      }
+      setFavicon();
+      document.addEventListener("turbo:load", setFavicon);
+      document.addEventListener("turbo:render", setFavicon);
+    })();
+    </script>
 
 </head>
 <body>
@@ -64,8 +85,8 @@
                 <div class="flex items-center px-2 md:px-6">
                     <a id="retype-branding-logo" href="https://help.kylerholland.com/" class="flex items-center leading-snug text-2xl">
                         <span class="grow-0 shrink-0 overflow-hidden">
-                            <img class="max-h-10 dark:hidden md:inline-block" src="../../assets/logo.png" alt="KH Help Center" height="32">
-                            <img class="max-h-10 hidden dark:inline-block" src="../../assets/logo-dark.png" alt="KH Help Center" height="32">
+                            <img class="max-h-10 dark:hidden md:inline-block" src="/assets/logo.png" alt="KH Help Center" height="32">
+                            <img class="max-h-10 hidden dark:inline-block" src="/assets/logo-dark.png" alt="KH Help Center" height="32">
                         </span>
                     </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">Help Center</span>
                 </div>
@@ -79,6 +100,9 @@
                     <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://www.kylerholland.com">Back to main site</a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="/changelog/">Changelog</a>
                         </li>
     
                     </ul>
@@ -132,6 +156,9 @@
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://www.kylerholland.com">Back to main site</a>
                                 </li>
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="/changelog/">Changelog</a>
+                                </li>
         
                             </ul>
                         </nav>
@@ -159,7 +186,7 @@
 <h1 id="14-free-4k-light-leaks">14 FREE 4K Light Leaks</h1>
 <p>14 free <strong>4K light leak</strong> clips for overlays and transitions in Adobe Premiere Pro (and other editors). The tutorial also shows how to shoot your own leaks with a zoom lens and black background.</p>
 <p><strong>Get the product:</strong> <a href="https://kylerholland.sellfy.store/p/155h/">14 FREE 4K Light Leaks</a><br />
-<strong>Download:</strong> After checkout, open the email <strong>Thanks for your purchase! Download your assets now</strong> from KYLER HOLLAND, click <strong>View your order</strong>, then <strong>Download</strong> the <code translate="no" v-pre>.zip</code>. <a href="../../getting-started/#how-to-download-your-products">Full steps</a></p>
+<strong>Download:</strong> After checkout, open the email <strong>Thanks for your purchase! Download your assets now</strong> from KYLER HOLLAND, click <strong>View your order</strong>, then <strong>Download</strong> the <code translate="no" v-pre>.zip</code>. <a href="/getting-started/#how-to-download-your-products">Full steps</a></p>
 <p>Prefer to follow along in video? Watch the tutorial below.</p>
 <div class="aspect-video w-full rounded-lg overflow-hidden mb-6 shadow-lg dark:shadow-lg">
     <iframe src="https://www.youtube.com/embed/tCB3DN0W71I" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="w-full h-full"></iframe>
@@ -216,13 +243,13 @@
 <hr>
 <h2 id="frequently-asked-questions">Frequently asked questions</h2>
 <h3 id="i-lost-my-download-link">I lost my download link</h3>
-<p>Search for <strong>Thanks for your purchase! Download your assets now</strong> from <code translate="no" v-pre>store+kylerholland@mail.sellfy.store</code> and click <strong>View your order</strong>. If you can&#x27;t find the email, <a href="https://assets.kylerholland.com/u/signin/">sign in to your account</a> with your purchase email, then open <strong>Orders</strong> → <strong>View order</strong>. See <a href="../../support/downloads-and-updates/">Downloads &amp; updates</a> for step-by-step help.</p>
+<p>Search for <strong>Thanks for your purchase! Download your assets now</strong> from <code translate="no" v-pre>store+kylerholland@mail.sellfy.store</code> and click <strong>View your order</strong>. If you can&#x27;t find the email, <a href="https://assets.kylerholland.com/u/signin/">sign in to your account</a> with your purchase email, then open <strong>Orders</strong> → <strong>View order</strong>. See <a href="/support/downloads-and-updates/">Downloads &amp; updates</a> for step-by-step help.</p>
 <hr>
 <h2 id="need-more-help">Need more help?</h2>
 <ul>
 <li><strong>Video tutorial:</strong> <a href="https://www.youtube.com/watch?v=tCB3DN0W71I">14 FREE 4K Light Leaks — Tutorial</a></li>
-<li><strong>Contact support:</strong> <a href="../../support/contact/">Get in touch</a></li>
-<li><strong>Report a bug:</strong> <a href="../../support/report-a-bug/">Submit a report</a></li>
+<li><strong>Contact support:</strong> <a href="/support/contact/">Get in touch</a></li>
+<li><strong>Report a bug:</strong> <a href="/support/report-a-bug/">Submit a report</a></li>
 </ul>
 
                 
@@ -233,7 +260,7 @@
             
                 <nav id="retype-nextprev" class="print:hidden flex mt-14">
                     <div class="w-1/2">
-                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../products/100-free-textures/">
+                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="/products/100-free-textures/">
                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                             <span>
                                 <span class="block text-xs font-normal text-base-text-muted">Previous</span>
@@ -243,7 +270,7 @@
                     </div>
             
                     <div class="w-1/2">
-                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../products/10-texture-overlays/">
+                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="/products/10-texture-overlays/">
                             <span>
                                 <span class="block text-xs font-normal text-right text-base-text-muted">Next</span>
                                 <span class="block mt-1">10 Texture Overlays</span>

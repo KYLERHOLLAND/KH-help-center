@@ -5,6 +5,7 @@
 - [KH Help Center](https://help.kylerholland.com/index.md): KH Help Center
 - [Getting Started](https://help.kylerholland.com/getting-started/index.md): Download your Kyler Holland purchase, extract the files, and install presets, transitions, LUTs, and motion graphics in Premiere Pro or other apps.
 - [Products](https://help.kylerholland.com/products/index.md): Browse help and support by product (42 total).
+- [Changelog](https://help.kylerholland.com/changelog/index.md): Release notes and version history for Kyler Holland presets, transitions, LUTs, plugins, and digital assets.
 - [Subscriptions](https://help.kylerholland.com/subscriptions/index.md): Monthly and annual subscriptions for the Ultimate Effects Pack plugin — sign in, billing, cancellation, and access through your paid period.
 
 ## Getting Started
@@ -63,7 +64,6 @@
 
 ## Support
 
-- [Changelog](https://help.kylerholland.com/support/changelog.md): Release notes and version history for Kyler Holland presets, transitions, LUTs, plugins, and digital assets.
 - [Downloads & Updates](https://help.kylerholland.com/support/downloads-and-updates.md): How to download your Kyler Holland products after checkout, re-download them anytime from your account, and get updated pack files when new versions are available.
 - [Tutorial Index](https://help.kylerholland.com/support/tutorial-index.md): Video walkthroughs for Kyler Holland products. Each link goes to YouTube — open your product's help page for written install steps, FAQs, and troubleshooting.
 - [Affiliate Program](https://help.kylerholland.com/support/affiliate-program.md): Earn commission when someone buys a Kyler Holland product through your affiliate link.

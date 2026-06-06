@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.834090494895">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.834090707063">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -37,16 +37,37 @@
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link id="retype-favicon" rel="icon" href="../../favicon.ico" />
-    <link href="../../resources/css/retype.css?v=4.6.0.834090494895" rel="stylesheet">
+    <link id="retype-favicon" rel="icon" href="/favicon.ico" />
+    <link href="/resources/css/retype.css?v=4.6.0.834090707063" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.834090494895" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.834090494895" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.834090707063" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.834090707063" data-turbo-eval="false" defer></script>
 
     <link rel="icon" href="/favicon.ico" sizes="any">
     <link rel="icon" href="/favicon.png" type="image/png" sizes="32x32">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <script data-cfasync="false">
+    (function () {
+      function setFavicon() {
+        var href = "/favicon.ico";
+        var links = document.querySelectorAll('link[rel="icon"], link#retype-favicon');
+        for (var i = 0; i < links.length; i++) {
+          links[i].href = href;
+        }
+        if (!document.getElementById("retype-favicon")) {
+          var link = document.createElement("link");
+          link.id = "retype-favicon";
+          link.rel = "icon";
+          link.href = href;
+          document.head.appendChild(link);
+        }
+      }
+      setFavicon();
+      document.addEventListener("turbo:load", setFavicon);
+      document.addEventListener("turbo:render", setFavicon);
+    })();
+    </script>
 
 </head>
 <body>
@@ -64,8 +85,8 @@
                 <div class="flex items-center px-2 md:px-6">
                     <a id="retype-branding-logo" href="https://help.kylerholland.com/" class="flex items-center leading-snug text-2xl">
                         <span class="grow-0 shrink-0 overflow-hidden">
-                            <img class="max-h-10 dark:hidden md:inline-block" src="../../assets/logo.png" alt="KH Help Center" height="32">
-                            <img class="max-h-10 hidden dark:inline-block" src="../../assets/logo-dark.png" alt="KH Help Center" height="32">
+                            <img class="max-h-10 dark:hidden md:inline-block" src="/assets/logo.png" alt="KH Help Center" height="32">
+                            <img class="max-h-10 hidden dark:inline-block" src="/assets/logo-dark.png" alt="KH Help Center" height="32">
                         </span>
                     </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">Help Center</span>
                 </div>
@@ -79,6 +100,9 @@
                     <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://www.kylerholland.com">Back to main site</a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="/changelog/">Changelog</a>
                         </li>
     
                     </ul>
@@ -132,6 +156,9 @@
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://www.kylerholland.com">Back to main site</a>
                                 </li>
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="/changelog/">Changelog</a>
+                                </li>
         
                             </ul>
                         </nav>
@@ -175,7 +202,7 @@
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Something not working?</h5>
-<p>We&#x27;re still here to help. Most issues are install or setup related — see <a href="../troubleshooting/">Troubleshooting</a> or <a href="../../getting-started/how-products-install/">How KH products install</a> before reaching out.</p>
+<p>We&#x27;re still here to help. Most issues are install or setup related — see <a href="/support/troubleshooting/">Troubleshooting</a> or <a href="/getting-started/how-products-install/">How KH products install</a> before reaching out.</p>
         </div>
     </div>
 </div>
@@ -190,7 +217,7 @@
 <p>Before checkout:</p>
 <ol>
 <li>Review the <strong>product description</strong> on <a href="https://www.kylerholland.com/products">kylerholland.com</a>.</li>
-<li>Watch the <strong>demo or tutorial</strong> on the <a href="../tutorial-index/">Tutorial index</a> or the product help page.</li>
+<li>Watch the <strong>demo or tutorial</strong> on the <a href="/support/tutorial-index/">Tutorial index</a> or the product help page.</li>
 <li>Read the <strong>FAQ</strong> on your product&#x27;s help page.</li>
 </ol>
 <p>LUT and media packs (<code translate="no" v-pre>.cube</code>, sound effects, light leaks) often work outside Premiere — check each product page for supported apps.</p>
@@ -198,8 +225,8 @@
 <h2 id="support--troubleshooting">Support &amp; troubleshooting</h2>
 <p>If you have questions about using your purchase or run into issues:</p>
 <ul>
-<li>Browse <a href="../troubleshooting/">Troubleshooting &amp; FAQ</a></li>
-<li>Read <a href="../../getting-started/how-products-install/">How KH products install</a></li>
+<li>Browse <a href="/support/troubleshooting/">Troubleshooting &amp; FAQ</a></li>
+<li>Read <a href="/getting-started/how-products-install/">How KH products install</a></li>
 <li>Submit a support request at <strong><a href="https://assets.kylerholland.com/contact/">assets.kylerholland.com/contact</a></strong></li>
 </ul>
 <p>We&#x27;re happy to assist with installation, basic troubleshooting, and product questions.</p>
@@ -213,10 +240,10 @@
 <li>Sharing login or download links with others</li>
 </ul>
 <p>Violation may result in <strong>termination of access</strong> and <strong>possible legal action</strong>.</p>
-<p>Commercial licensing (where offered, for example on <a href="../../products/the-ultimate-effects-pack/">The Ultimate Effects Pack</a>) is selected at checkout — personal/Standard and Commercial are separate license tiers.</p>
+<p>Commercial licensing (where offered, for example on <a href="/products/the-ultimate-effects-pack/">The Ultimate Effects Pack</a>) is selected at checkout — personal/Standard and Commercial are separate license tiers.</p>
 <hr>
 <h2 id="re-downloads--updates">Re-downloads &amp; updates</h2>
-<p>Your purchase remains available in your account for re-download. Updated pack files are accessed the same way — see <a href="../downloads-and-updates/">Downloads &amp; updates</a>.</p>
+<p>Your purchase remains available in your account for re-download. Updated pack files are accessed the same way — see <a href="/support/downloads-and-updates/">Downloads &amp; updates</a>.</p>
 <hr>
 <h2 id="questions-about-this-policy">Questions about this policy?</h2>
 <p><a href="https://assets.kylerholland.com/contact/">Contact support</a> and mention your order email and product name.</p>
@@ -229,7 +256,7 @@
             
                 <nav id="retype-nextprev" class="print:hidden flex mt-14">
                     <div class="w-1/2">
-                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../support/report-a-bug/">
+                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="/support/report-a-bug/">
                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                             <span>
                                 <span class="block text-xs font-normal text-base-text-muted">Previous</span>
@@ -239,7 +266,7 @@
                     </div>
             
                     <div class="w-1/2">
-                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../support/contact/">
+                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="/support/contact/">
                             <span>
                                 <span class="block text-xs font-normal text-right text-base-text-muted">Next</span>
                                 <span class="block mt-1">Contact Support</span>
