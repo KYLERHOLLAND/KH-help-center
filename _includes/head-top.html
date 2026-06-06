@@ -1,11 +1,12 @@
 <link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="shortcut icon" href="/favicon.ico">
 <link rel="icon" href="/favicon.png" type="image/png" sizes="32x32">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <script data-cfasync="false">
 (function () {
-  function setFavicon() {
-    var href = "/favicon.ico";
-    var links = document.querySelectorAll('link[rel="icon"], link#retype-favicon');
+  var href = "/favicon.ico";
+  function applyFavicon() {
+    var links = document.querySelectorAll('link[rel="icon"], link[rel="shortcut icon"], link#retype-favicon');
     for (var i = 0; i < links.length; i++) {
       links[i].href = href;
     }
@@ -17,8 +18,10 @@
       document.head.appendChild(link);
     }
   }
-  setFavicon();
-  document.addEventListener("turbo:load", setFavicon);
-  document.addEventListener("turbo:render", setFavicon);
+  applyFavicon();
+  document.addEventListener("turbo:load", applyFavicon);
+  document.addEventListener("turbo:render", applyFavicon);
+  document.addEventListener("turbo:before-render", applyFavicon);
+  new MutationObserver(applyFavicon).observe(document.head, { childList: true, subtree: true });
 })();
 </script>
