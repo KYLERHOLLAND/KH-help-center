@@ -7,6 +7,8 @@ url: help.kylerholland.com
 meta:
   siteName: KH Help Center
 
+favicon: assets/favicon.png
+
 branding:
   logo: assets/logo.png
   logoDark: assets/logo-dark.png

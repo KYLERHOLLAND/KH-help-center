@@ -60,7 +60,11 @@ You must sign in with the **same email** from your receipt. If you used a differ
 
 ## Product updates
 
-We update packs when Adobe releases major Premiere changes or when we ship improvements to a product.
+We update packs when Adobe releases major Premiere changes or when we ship improvements to a product. For version-by-version notes — new presets, compatibility folders, breaking changes — see the **[Changelog](../changelog/index.md)**.
+
+!!!tip What's new?
+The changelog lists what changed in each release. Re-download first, then check the notes for anything you need to re-import or replace.
+!!!
 
 ### Get the latest files
 
