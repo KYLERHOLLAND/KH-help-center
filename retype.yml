@@ -9,9 +9,6 @@ meta:
 
 favicon: favicon.png
 
-generator:
-  paths: root
-
 branding:
   logo: assets/logo.png
   logoDark: assets/logo-dark.png
