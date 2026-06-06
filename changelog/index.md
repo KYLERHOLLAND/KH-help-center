@@ -1,22 +1,14 @@
 # Changelog
 
-What's new across KH products — new presets, compatibility updates, bug fixes, and breaking changes. Re-download updated packs from your account; you don't need to purchase again.
++++ 2026
 
-!!!tip How to get updates
-Sign in → **Orders** → **View order** → **Download** again. Step-by-step help: [Downloads & updates](../support/downloads-and-updates.md).
-!!!
-
----
-
-## 2026
-
-### June 6, 2026 — [The Ultimate Effects Pack](../products/the-ultimate-effects-pack/index.md) plugin v1.0.5
+=== June 6, 2026 — The Ultimate Effects Pack plugin v1.0.0
 
 **Premiere Pro · [Subscriptions](../subscriptions/index.md)**
 
 The Ultimate Effects Pack **plugin** is now available as a monthly or annual subscription — browse, preview, and insert 700+ transitions and effects without leaving Premiere.
 
-**Plugin v1.0.5**
+#### Plugin v1.0.0
 
 - **Sign in with email** — use the same address from your [Sellfy checkout](../subscriptions/index.md); no license key to copy
 - **Subscription access** — if you cancel, the plugin stays unlocked until the end of your paid period, with a days-remaining notice and **RENEW** button
@@ -33,9 +25,7 @@ The Ultimate Effects Pack **plugin** is now available as a monthly or annual sub
 
 **Get started:** [Install the plugin](../products/the-ultimate-effects-pack/index.md) · [Subscribe on Sellfy](https://kylerholland.sellfy.store/) · [Downloads & updates](../support/downloads-and-updates.md)
 
----
-
-### June 1, 2026 — KH Help Center launch
+==- June 1, 2026 — KH Help Center launch {#help-center-launch}
 
 **help.kylerholland.com**
 
@@ -49,19 +39,19 @@ The full Kyler Holland help center is live — setup guides, troubleshooting, an
 - Product pages include install steps, YouTube tutorials, and FAQs for each pack
 - Order confirmation emails and downloads now link directly to product-specific help pages
 
----
+==- May 15, 2026 — kylerholland.com product page refresh {#website-products-refresh}
 
-## 2025
+**[kylerholland.com/products](https://www.kylerholland.com/products)**
 
-Product pack and plugin release notes will be listed here as updates ship.
+Updated product previews across the main site — refreshed images, GIFs, and gallery media so each pack shows clearer before-and-after examples before you buy.
 
----
+- New and updated **preview images** on product listing pages
+- Refreshed **GIF previews** for transitions, effects, and motion graphics
+- Improved **visual consistency** across the full product catalog on [kylerholland.com/products](https://www.kylerholland.com/products)
 
-## Earlier years
+===
 
-==- 2024 and before
-No archived release notes yet. Older pack updates were announced on product store pages and YouTube.
-==
++++
 
 ---
 
