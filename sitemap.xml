@@ -10,7 +10,11 @@
   </url>
   <url>
     <loc>https://help.kylerholland.com/products/</loc>
-    <lastmod>2026-05-31T11:22:47Z</lastmod>
+    <lastmod>2026-06-06T15:55:45Z</lastmod>
+  </url>
+  <url>
+    <loc>https://help.kylerholland.com/changelog/</loc>
+    <lastmod>2026-06-06T15:51:30Z</lastmod>
   </url>
   <url>
     <loc>https://help.kylerholland.com/getting-started/how-products-install/</loc>
@@ -27,10 +31,6 @@
   <url>
     <loc>https://help.kylerholland.com/support/tutorial-index/</loc>
     <lastmod>2026-05-31T11:22:47Z</lastmod>
-  </url>
-  <url>
-    <loc>https://help.kylerholland.com/changelog/</loc>
-    <lastmod>2026-06-06T15:51:30Z</lastmod>
   </url>
   <url>
     <loc>https://help.kylerholland.com/subscriptions/</loc>
@@ -61,15 +61,11 @@
     <lastmod>2026-05-31T11:22:47Z</lastmod>
   </url>
   <url>
-    <loc>https://help.kylerholland.com/products/shake-transitions-preset-pack/</loc>
-    <lastmod>2026-05-31T11:22:47Z</lastmod>
-  </url>
-  <url>
     <loc>https://help.kylerholland.com/products/stutter-glitch/</loc>
     <lastmod>2026-05-31T11:22:47Z</lastmod>
   </url>
   <url>
-    <loc>https://help.kylerholland.com/products/shape-offset-transition/</loc>
+    <loc>https://help.kylerholland.com/products/shake-transitions-preset-pack/</loc>
     <lastmod>2026-05-31T11:22:47Z</lastmod>
   </url>
   <url>
@@ -77,11 +73,15 @@
     <lastmod>2026-05-31T11:22:47Z</lastmod>
   </url>
   <url>
-    <loc>https://help.kylerholland.com/products/seamless-flow-transition-pack/</loc>
+    <loc>https://help.kylerholland.com/products/shape-offset-transition/</loc>
     <lastmod>2026-05-31T11:22:47Z</lastmod>
   </url>
   <url>
     <loc>https://help.kylerholland.com/products/screen-recording-preset-pack/</loc>
+    <lastmod>2026-05-31T11:22:47Z</lastmod>
+  </url>
+  <url>
+    <loc>https://help.kylerholland.com/products/seamless-flow-transition-pack/</loc>
     <lastmod>2026-05-31T11:22:47Z</lastmod>
   </url>
   <url>
@@ -125,11 +125,11 @@
     <lastmod>2026-05-31T11:22:47Z</lastmod>
   </url>
   <url>
-    <loc>https://help.kylerholland.com/products/exposure-transitions/</loc>
+    <loc>https://help.kylerholland.com/products/dynamic-slide-text-motion-graphic/</loc>
     <lastmod>2026-05-31T11:22:47Z</lastmod>
   </url>
   <url>
-    <loc>https://help.kylerholland.com/products/dynamic-slide-text-motion-graphic/</loc>
+    <loc>https://help.kylerholland.com/products/exposure-transitions/</loc>
     <lastmod>2026-05-31T11:22:47Z</lastmod>
   </url>
   <url>
@@ -149,11 +149,11 @@
     <lastmod>2026-05-31T11:22:47Z</lastmod>
   </url>
   <url>
-    <loc>https://help.kylerholland.com/products/custom-brush-motion-graphic/</loc>
+    <loc>https://help.kylerholland.com/products/brevidy/</loc>
     <lastmod>2026-05-31T11:22:47Z</lastmod>
   </url>
   <url>
-    <loc>https://help.kylerholland.com/products/brevidy/</loc>
+    <loc>https://help.kylerholland.com/products/custom-brush-motion-graphic/</loc>
     <lastmod>2026-05-31T11:22:47Z</lastmod>
   </url>
   <url>
@@ -165,11 +165,11 @@
     <lastmod>2026-05-31T11:22:47Z</lastmod>
   </url>
   <url>
-    <loc>https://help.kylerholland.com/products/audio-effects/</loc>
+    <loc>https://help.kylerholland.com/products/auto-resize-lower-third/</loc>
     <lastmod>2026-05-31T11:22:47Z</lastmod>
   </url>
   <url>
-    <loc>https://help.kylerholland.com/products/auto-resize-lower-third/</loc>
+    <loc>https://help.kylerholland.com/products/audio-effects/</loc>
     <lastmod>2026-05-31T11:22:47Z</lastmod>
   </url>
   <url>
@@ -189,12 +189,12 @@
     <lastmod>2026-05-31T11:22:47Z</lastmod>
   </url>
   <url>
-    <loc>https://help.kylerholland.com/products/10-texture-overlays/</loc>
-    <lastmod>2026-05-31T11:22:47Z</lastmod>
-  </url>
-  <url>
     <loc>https://help.kylerholland.com/support/troubleshooting/</loc>
     <lastmod>2026-06-05T16:31:59Z</lastmod>
+  </url>
+  <url>
+    <loc>https://help.kylerholland.com/products/10-texture-overlays/</loc>
+    <lastmod>2026-05-31T11:22:47Z</lastmod>
   </url>
   <url>
     <loc>https://help.kylerholland.com/products/10-free-luts/</loc>

@@ -4,8 +4,8 @@
 
 - [KH Help Center](https://help.kylerholland.com/index.md): KH Help Center
 - [Getting Started](https://help.kylerholland.com/getting-started/index.md): Download your Kyler Holland purchase, extract the files, and install presets, transitions, LUTs, and motion graphics in Premiere Pro or other apps.
-- [Products](https://help.kylerholland.com/products/index.md): Browse help and support by product (42 total).
 - [Changelog](https://help.kylerholland.com/changelog/index.md): Release notes and version history for Kyler Holland presets, transitions, LUTs, plugins, and digital assets.
+- [Products](https://help.kylerholland.com/products/index.md): Browse help and support by product (42 total).
 - [Subscriptions](https://help.kylerholland.com/subscriptions/index.md): Monthly and annual subscriptions for the Ultimate Effects Pack plugin — sign in, billing, cancellation, and access through your paid period.
 
 ## Getting Started
