@@ -24,7 +24,7 @@ https://www.youtube.com/watch?v=BiguxcUwCsw
 | **Full pack** | All **20** digital glitch transitions |
 | **Demo** | **4** transitions (free download from the product page) |
 
-The pack is updated over time — see the **[Changelog](../../changelog/index.md)** for new presets and release notes.
+The pack is updated over time — see the **[Changelog](../../support/changelog.md)** for new presets and release notes.
 
 ---
 
