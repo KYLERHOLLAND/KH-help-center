@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://help.kylerholland.com/</loc>
-    <lastmod>2026-06-06T15:44:20Z</lastmod>
+    <lastmod>2026-06-06T15:47:59Z</lastmod>
   </url>
   <url>
     <loc>https://help.kylerholland.com/getting-started/</loc>
-    <lastmod>2026-06-06T15:44:20Z</lastmod>
+    <lastmod>2026-06-06T15:47:59Z</lastmod>
   </url>
   <url>
     <loc>https://help.kylerholland.com/products/</loc>
@@ -17,24 +17,20 @@
     <lastmod>2026-05-31T11:22:47Z</lastmod>
   </url>
   <url>
-    <loc>https://help.kylerholland.com/support/downloads-and-updates/</loc>
-    <lastmod>2026-06-06T15:44:20Z</lastmod>
-  </url>
-  <url>
     <loc>https://help.kylerholland.com/support/contact/</loc>
     <lastmod>2026-05-31T11:22:47Z</lastmod>
+  </url>
+  <url>
+    <loc>https://help.kylerholland.com/support/downloads-and-updates/</loc>
+    <lastmod>2026-06-06T15:47:59Z</lastmod>
   </url>
   <url>
     <loc>https://help.kylerholland.com/support/tutorial-index/</loc>
     <lastmod>2026-05-31T11:22:47Z</lastmod>
   </url>
   <url>
-    <loc>https://help.kylerholland.com/changelog/</loc>
-    <lastmod>2026-06-06T15:44:20Z</lastmod>
-  </url>
-  <url>
     <loc>https://help.kylerholland.com/subscriptions/</loc>
-    <lastmod>2026-06-06T15:44:20Z</lastmod>
+    <lastmod>2026-06-06T15:47:59Z</lastmod>
   </url>
   <url>
     <loc>https://help.kylerholland.com/support/report-a-bug/</loc>
@@ -138,7 +134,7 @@
   </url>
   <url>
     <loc>https://help.kylerholland.com/products/digital-glitch-transitions/</loc>
-    <lastmod>2026-06-06T15:44:20Z</lastmod>
+    <lastmod>2026-06-06T15:47:59Z</lastmod>
   </url>
   <url>
     <loc>https://help.kylerholland.com/products/custom-shake-transition/</loc>
@@ -219,6 +215,10 @@
   <url>
     <loc>https://help.kylerholland.com/subscriptions/cancel-your-subscription/</loc>
     <lastmod>2026-06-05T16:31:59Z</lastmod>
+  </url>
+  <url>
+    <loc>https://help.kylerholland.com/support/changelog/</loc>
+    <lastmod>2026-06-06T15:47:59Z</lastmod>
   </url>
   <url>
     <loc>https://help.kylerholland.com/support/refunds-and-policy/</loc>

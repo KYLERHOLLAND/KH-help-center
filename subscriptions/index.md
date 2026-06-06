@@ -139,7 +139,7 @@ For payment, receipts, or PayPal subscription management, use your Sellfy order 
 [!card layout="signal" icon="x-circle" title="Cancel your subscription" text="Step-by-step cancellation and what happens to your access." kicker="Open"](cancel-your-subscription.md)
 [!card layout="signal" icon="key" title="Sign-in & devices" text="Magic-link sign-in, device limits, and common fixes." kicker="Open"](sign-in-and-devices.md)
 [!card layout="signal" icon="download" title="Downloads & updates" text="Re-download the plugin or pack files from your account." kicker="Open"](../support/downloads-and-updates.md)
-[!card layout="signal" icon="history" title="Changelog" text="Plugin and pack release notes — what's new in each update." kicker="View"](../changelog/index.md)
+[!card layout="signal" icon="history" title="Changelog" text="Plugin and pack release notes — what's new in each update." kicker="View"](../support/changelog.md)
 
 ---
 
