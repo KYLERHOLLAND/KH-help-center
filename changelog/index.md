@@ -19,7 +19,7 @@ Re-download the latest `.zip` from your [Sellfy order](../support/downloads-and-
 
 **Get started:** [Install guide](../products/the-ultimate-effects-pack/index.md) · [Downloads & updates](../support/downloads-and-updates.md)
 
-=== June 6, 2026 — The Ultimate Effects Pack plugin v1.0.0
+==- June 6, 2026 — The Ultimate Effects Pack plugin v1.0.0
 
 **Premiere Pro · [Subscriptions](../subscriptions/index.md)**
 
