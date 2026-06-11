@@ -6,7 +6,7 @@
 - [Getting Started](https://help.kylerholland.com/getting-started/index.md): Download your Kyler Holland purchase, extract the files, and install presets, transitions, LUTs, and motion graphics in Premiere Pro or other apps.
 - [Products](https://help.kylerholland.com/products/index.md): Browse help and support by product (42 total).
 - [Subscriptions](https://help.kylerholland.com/subscriptions/index.md): Monthly and annual subscriptions for the Ultimate Effects Pack plugin — sign in, billing, cancellation, and access through your paid period.
-- [Changelog](https://help.kylerholland.com/changelog/index.md): Premiere Pro · Subscriptions
+- [Changelog](https://help.kylerholland.com/changelog/index.md): Premiere Pro · The Ultimate Effects Pack
 
 ## Getting Started
 
