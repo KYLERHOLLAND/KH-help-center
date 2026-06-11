@@ -8,6 +8,23 @@ order: 96
 
 +++ 2026
 
+=== June 11, 2026 — The Ultimate Effects Pack — Emboss transitions & 21 new transitions
+
+**Premiere Pro · [The Ultimate Effects Pack](../products/the-ultimate-effects-pack/index.md)**
+
+Redesigned **Emboss** transitions and added **21 new transitions** to the pack.
+
+![Emboss transition preview|640x360](../assets/ultimate-effects-pack-emboss-transition.gif)
+
+#### Effect pack update
+
+- **Emboss transitions redesigned** — refreshed look, motion, and edge detail across the full Emboss set
+- **21 new transitions** added to the library
+
+Re-download the latest `.zip` from your [Sellfy order](../support/downloads-and-updates.md) to get the updated pack. Plugin subscribers get the new transitions through the in-panel library.
+
+**Get started:** [Install guide](../products/the-ultimate-effects-pack/index.md) · [Downloads & updates](../support/downloads-and-updates.md)
+
 === June 6, 2026 — The Ultimate Effects Pack plugin v1.0.0
 
 **Premiere Pro · [Subscriptions](../subscriptions/index.md)**
